@@ -50,5 +50,5 @@ Now with the above setup, when we view the zipkin trace logs in UI , it shows tw
 
 but in reality it is 1 request flow
 
-```flow cloud-gateway -> resource-server -> oauth-server -> resource-server -> cloud-gateway```
+``` cloud-gateway -> resource-server -> oauth-server -> resource-server -> cloud-gateway```
   
