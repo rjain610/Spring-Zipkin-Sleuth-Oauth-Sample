@@ -2,7 +2,7 @@
 Spring boot sample application demonstrating zipkin,sleuth and oauth with spring cloud gateway
 
 It has 4 application : 
-1. cloud-gateway - Will be responsible to route requests
+1. cloud-gateway - Will be responsible to route requests 
 2. oauth-server - Will be responsible to authenticate the user's request
 3. resource-server - protected resource
 4. zipkin.jar - downloaded latest from zipkin github repository
@@ -12,6 +12,8 @@ cloud-gateway runs on port 8081
 oauth-sever runs on port 9091
 
 resource-server runs on port 8080
+
+I am using spring cloud **Hoxton.SR4**
 
 **Steps to run :** 
 ```
