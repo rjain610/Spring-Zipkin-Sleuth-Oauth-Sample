@@ -43,7 +43,12 @@ Hit the resource api using to ```access_token``` received from above request
 curl http://localhost:8081/rs1/api/protect-resource?access_token=f7caae5c-7278-47a8-9ea1-d53e99133c74
 ```
 
+Now with the above setup, when we view the zipkin trace logs in UI , it shows two requestt logs 
 
+1. cloud-gateway -> resource-server
+2. oauth-server 
 
+but in reality it is 1 request flow
 
+```flow cloud-gateway -> resource-server -> oauth-server -> resource-server -> cloud-gateway```
   
